@@ -1,0 +1,18 @@
+package assessment;
+class HrDepartment extends SuperDepartment{
+    public String departmentName(){
+        return "Welcome to HR Department";
+    }
+    public String doActivity(){
+        return "team Lunch";
+    }
+    public String getTodaysWork(){
+        return "Fill today’s timesheet and mark your attendance";
+    }
+    public String getWorkDeadLine(){
+        return "Complete by EOD";
+    }
+    public String isTodayAHoliday(){
+        return "Today is not a Holiday";
+    }
+}
